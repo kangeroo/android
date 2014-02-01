@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="aosp"
+           fetch="https://android.googlesource.com"
+           review="android-review.googlesource.com" />
+
+  <remote  name="github"
+           fetch=".."
+           review="review.cyanogenmod.org" />
+
+  <remote  name="private"
+           fetch="ssh://git@github.com" />
+
+  <default revision="refs/heads/cm-11.0"
+           remote="github"
+           sync-c="true"
+           sync-j="4" />
+
+  <project name="temasek/android_frameworks_base/" path="frameworks/base" remote="github" revision="cm-11.0" />
+  <project name="temasek/android_packages_apps_Settings/" path="packages/apps/Settings" remote="github" revision="cm-11.0" />
+  <project name="temasek/android_vendor_cm/" path="vendor/cm" remote="github" revision="cm-11.0" />
+  <project name="temasek/android_frameworks_native/" path="frameworks/native" remote="github" revision="cm-11.0" />
+  <project name="temasek/android_system_vold/" path="system/vold" remote="github" revision="cm-11.0" />
+  <project name="temasek/android_build/" path="build" remote="github" revision="cm-11.0" />
+  <project name="temasek/android_packages_providers_MediaProvider/" path="packages/providers/MediaProvider" remote="github" revision="cm-11.0" />
+  <project name="temasek/android_packages_apps_InCallUI/" path="packages/apps/InCallUI" remote="github" revision="cm-11.0" />
+  <project name="temasek/android_packages_apps_Dialer/" path="packages/apps/Dialer" remote="github" revision="cm-11.0" />
+  <project name="temasek/android_system_core/" path="system/core" remote="github" revision="cm-11.0" />
+  <project name="temasek/android_packages_services_Telephony/" path="packages/services/Telephony" remote="github" revision="cm-11.0" />
+  <project name="temasek/android_frameworks_av/" path="frameworks/av" remote="github" revision="cm-11.0" />
+  <project name="temasek/android_packages_apps_Browser/" path="packages/apps/Browser" remote="github" revision="cm-11.0" />
+  <project name="temasek/android_packages_apps_Gallery2/" path="packages/apps/Gallery2" remote="github" revision="cm-11.0" />
+  <project name="temasek/android_packages_apps_Email/" path="packages/apps/Email" remote="github" revision="cm-11.0" />
+  <project name="temasek/android_packages_apps_UnifiedEmail/" path="packages/apps/UnifiedEmail" remote="github" revision="cm-11.0" />
+  <project name="temasek/android_packages_apps_DeskClock/" path="packages/apps/DeskClock" remote="github" revision="cm-11.0" />
+  <project name="temasek/android_frameworks_opt_timezonepicker/" path="frameworks/opt/timezonepicker" remote="github" revision="cm-11.0" />
+  <project name="temasek/android_packages_inputmethods_LatinIME/" path="packages/inputmethods/LatinIME" remote="github" revision="cm-11.0" />
+  <project name="temasek/android_packages_apps_Calculator/" path="packages/apps/Calculator" remote="github" revision="cm-11.0" />
+  <project name="temasek/android_development/" path="development" remote="github" revision="cm-11.0" />
+  <project name="temasek/android_packages_apps_ContactsCommon/" path="packages/apps/ContactsCommon" remote="github" revision="cm-11.0" />
+  <project name="temasek/android_packages_apps_Contacts/" path="packages/apps/Contacts" remote="github" revision="cm-11.0" />
+  <project name="temasek/android_packages_apps_Mms/" path="packages/apps/Mms" remote="github" revision="cm-11.0" />
+  <project name="temasek/android_packages_apps_Torch/" path="packages/apps/Torch" remote="github" revision="cm-11.0" />
+  <project name="temasek/android_packages_apps_Nfc/" path="packages/apps/Nfc" remote="github" revision="cm-11.0" />
+  <project name="temasek/android_packages_apps_ScreenRecorder/" path="packages/apps/ScreenRecorder" remote="github" revision="cm-11.0" />
+  <project name="temasek/android_packages_apps_Calendar/" path="packages/apps/Calendar" remote="github" revision="cm-11.0" />
+
+</manifest>
