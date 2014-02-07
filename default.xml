@@ -17,15 +17,33 @@
            sync-c="true"
            sync-j="4" />
 
+  <project name="temasek/android_device_asus_tilapia" path="device/asus/tilapia" remote="github" revision="cm-11.0" />
+  <project name="proprietary_vendor_asus" path="vendor/asus" remote="TheMuppets" revision="cm-11.0" />
+  <project name="proprietary_vendor_broadcom" path="vendor/broadcom" remote="TheMuppets" revision="cm-11.0" />
+  <project name="proprietary_vendor_elan" path="vendor/elan" remote="TheMuppets" revision="cm-11.0" />
+  <project name="proprietary_vendor_invensense" path="vendor/invensense" remote="TheMuppets" revision="cm-11.0" />
+  <project name="proprietary_vendor_nvidia" path="vendor/nvidia" remote="TheMuppets" revision="cm-11.0" />
+  <project name="proprietary_vendor_nxp" path="vendor/nxp" remote="TheMuppets" revision="cm-11.0" />
+  <project name="proprietary_vendor_widevine" path="vendor/widevine" remote="TheMuppets" revision="cm-11.0" />
+  <project name="temasek/android_device_asus_grouper" path="device/asus/grouper" remote="github" revision="cm-11.0" />
+  <project name="CyanogenMod/android_kernel_asus_grouper" path="kernel/asus/grouper" remote="github" revision="cm-11.0" />
   <project name="temasek/android_frameworks_base/" path="frameworks/base" remote="github" revision="cm-11.0" />
   <project name="temasek/android_packages_apps_Settings/" path="packages/apps/Settings" remote="github" revision="cm-11.0" />
+  <project name="CyanogenMod/android_packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" remote="github" revision="cm-11.0" />
+  <project name="temasek/android_device_samsung_smdk4412-common/" path="device/samsung/smdk4412-common" remote="github" revision="cm-11.0" />
+  <project name="temasek/android_device_samsung_i9300/" path="device/samsung/i9300" remote="github" revision="cm-11.0" />
+  <project name="temasek/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="github" revision="cm-11.0" />
   <project name="temasek/android_vendor_cm/" path="vendor/cm" remote="github" revision="cm-11.0" />
+  <project name="temasek/proprietary_vendor_samsung/" path="vendor/samsung" remote="github" revision="cm-11.0" />
+  <project name="temasek/android_hardware_samsung" path="hardware/samsung" remote="github" revision="cm-11.0" />
   <project name="temasek/android_frameworks_native/" path="frameworks/native" remote="github" revision="cm-11.0" />
   <project name="temasek/android_system_vold/" path="system/vold" remote="github" revision="cm-11.0" />
+  <project name="temasek/android_frameworks_opt_telephony/" path="frameworks/opt/telephony" remote="github" revision="cm-11.0" />
   <project name="temasek/android_build/" path="build" remote="github" revision="cm-11.0" />
   <project name="temasek/android_packages_providers_MediaProvider/" path="packages/providers/MediaProvider" remote="github" revision="cm-11.0" />
   <project name="temasek/android_packages_apps_InCallUI/" path="packages/apps/InCallUI" remote="github" revision="cm-11.0" />
   <project name="temasek/android_packages_apps_Dialer/" path="packages/apps/Dialer" remote="github" revision="cm-11.0" />
+  <project name="temasek/android_art/" path="art" remote="github" revision="cm-11.0" />
   <project name="temasek/android_system_core/" path="system/core" remote="github" revision="cm-11.0" />
   <project name="temasek/android_packages_services_Telephony/" path="packages/services/Telephony" remote="github" revision="cm-11.0" />
   <project name="temasek/android_frameworks_av/" path="frameworks/av" remote="github" revision="cm-11.0" />
@@ -41,11 +59,15 @@
   <project name="temasek/android_packages_apps_ContactsCommon/" path="packages/apps/ContactsCommon" remote="github" revision="cm-11.0" />
   <project name="temasek/android_packages_apps_Contacts/" path="packages/apps/Contacts" remote="github" revision="cm-11.0" />
   <project name="temasek/android_packages_apps_Mms/" path="packages/apps/Mms" remote="github" revision="cm-11.0" />
+  <project name="temasek/android_device_samsung_hltexx/" path="device/samsung/hltexx" remote="github" revision="cm-11.0" />
+  <project name="temasek/android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="github" revision="cm-11.0" />
+  <project name="temasek/android_device_samsung_msm8960-common" path="device/samsung/msm8960-common" remote="github" revision="cm-11.0" />
+  <project name="temasek/android_device_samsung_hlte-common/" path="device/samsung/hlte-common" remote="github" revision="cm-11.0" />
+  <project name="temasek/android_kernel_samsung_hlte/" path="kernel/samsung/hlte" remote="github" revision="cm-11.0" />
+  <project name="temasek/android_packages_apps_Camera2/" path="packages/apps/Camera2" remote="github" revision="cm-11.0" />
   <project name="temasek/android_packages_apps_Torch/" path="packages/apps/Torch" remote="github" revision="cm-11.0" />
   <project name="temasek/android_packages_apps_Nfc/" path="packages/apps/Nfc" remote="github" revision="cm-11.0" />
   <project name="temasek/android_packages_apps_ScreenRecorder/" path="packages/apps/ScreenRecorder" remote="github" revision="cm-11.0" />
   <project name="temasek/android_packages_apps_Calendar/" path="packages/apps/Calendar" remote="github" revision="cm-11.0" />
-  <project name="CyanogenMod/android_packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" remote="github" revision="cm-11.0" />
   <project name="temasek/android_packages_apps_OmniSwitch/" path="packages/apps/OmniSwitch" remote="github" revision="android-4.4" />
-
 </manifest>
